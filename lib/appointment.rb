@@ -13,7 +13,5 @@ class Appointment
     @all = []
   end
   
-  def doctor
-    @doctor = appointment.doctor
-  end
+
 end
