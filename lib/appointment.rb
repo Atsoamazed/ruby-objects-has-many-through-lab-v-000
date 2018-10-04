@@ -10,11 +10,14 @@ class Appointment
     @date = date
     @patient = patient
     @doctor = self.doctor 
-    doctor.
+    doctor.add_appointment(self)
     
-     genre.add_song(self)
-    @appointments =[]
-
+   def initialize(name, genre)
+    @name = name
+    @genre = genre
+    genre.add_song(self)
+  end
+end
   end
   
 
