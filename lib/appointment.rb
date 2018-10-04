@@ -14,6 +14,6 @@ class Appointment
   end
   
   def doctor
-    
+    @doctor = appointment.doctor
   end
 end
