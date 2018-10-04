@@ -11,7 +11,6 @@ class Appointment
     @patient = patient
     @doctor = self.doctor 
     @appointments = []
-    @name = name
 
   end
   
