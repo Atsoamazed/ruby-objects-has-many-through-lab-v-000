@@ -1,6 +1,6 @@
 class Appointment
   attr_accessor :date, :patient, :doctor, :appointment
-  @all = []
+  @@all = []
   
   def self.all
     @all
