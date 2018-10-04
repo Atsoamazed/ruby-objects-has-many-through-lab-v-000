@@ -12,11 +12,6 @@ class Appointment
     @doctor = self.doctor 
     doctor.add_appointment(self)
     
-   def initialize(name, genre)
-    @name = name
-    @genre = genre
-    genre.add_song(self)
-  end
 end
   end
   
