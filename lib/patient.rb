@@ -16,7 +16,7 @@ class Patient
 
   
   def doctors
-    @doctors = doctors
+    @doctors = doctor
     appointments.doctors = self 
 
   end
