@@ -11,6 +11,4 @@ class Appointment
     @patient = patient
     doctor.add_appointment(self)
   end
-  
-
 end
