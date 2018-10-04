@@ -11,7 +11,7 @@ class Appointment
     @patient = patient
     @doctor = doctor
     @appointments = appointment
-    @all = []
+
   end
   
 
