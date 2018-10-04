@@ -11,6 +11,8 @@ class Appointment
     @patient = patient
     @doctor = self.doctor 
     @appointments =[]
+    @@all << self
+
 
   end
   
