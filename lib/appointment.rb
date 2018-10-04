@@ -10,6 +10,7 @@ class Appointment
     @date = date
     @patient = patient
     @doctor = self.doctor 
+    doctor.
     
      genre.add_song(self)
     @appointments =[]
