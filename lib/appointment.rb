@@ -10,7 +10,7 @@ class Appointment
     @date = date
     @patient = patient
     @doctor = doctor
-    @appointments = doctor.appointment
+    @appointments = appointment
     @all = []
   end
   
